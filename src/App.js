@@ -1,12 +1,17 @@
-// import 'bulma-css';
+import 'bulma-css';
 
 import React from 'react';
+import Navbar from './components/Navbar/Navbar.component';
 
 class App extends React.Component {
   render() {
     return (
-      <div className="app-component container">
-        <h1>Hello World!</h1>
+      <div className="app-component">
+        <Navbar />
+
+        <div className="container">
+          <h1>Hello World!</h1>
+        </div>
       </div>
     );
   }
